@@ -69,6 +69,21 @@
             display: block;
         }
 
+        @media (max-width: 768px) {
+            .hero-image-wrapper {
+                height: 100vw;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .hero-image-wrapper img {
+                width: auto;
+                height: 100%;
+                max-width: none;
+            }
+        }
+
         /* תוכן האתר מתחת לתמונה */
         .main-content {
             background-color: var(--midnight-blue);
